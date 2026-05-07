@@ -66,8 +66,7 @@ const PROJECTS = [
     role: "Full Stack Developer",
     desc: "Built a curated AI-powered tech jobs board featuring openings from top Indian startups like Zerodha, Razorpay, CRED, Google India & more — with smart filtering by role, mode, and type.",
     stack: ["React", "GSAP", "Vite", "Framer Motion", "Vercel"],
-    href: "https://where-is-my-cargo.vercel.app/jobs",
-    external: true,
+    href: "/cargo/jobs",
   },
   {
     date: "May 2025",
