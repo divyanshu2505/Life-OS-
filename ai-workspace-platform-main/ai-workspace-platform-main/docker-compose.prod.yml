@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  frontend:
+    image: ai-workspace/frontend:latest
+  backend:
+    image: ai-workspace/backend:latest
+  nginx:
+    image: nginx:alpine

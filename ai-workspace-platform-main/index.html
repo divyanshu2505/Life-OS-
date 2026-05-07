@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LifeOS AI — Learn, Earn & Save Time with AI</title>
+  <meta name="description" content="LifeOS AI is an all-in-one AI super app combining productivity, learning, and income generation into a single intelligent platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-logo">
+        <div class="logo-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
+            <circle cx="16" cy="16" r="15" stroke="url(#lg1)" stroke-width="2"/>
+            <path d="M8 16c0-4.4 3.6-8 8-8s8 3.6 8 8" stroke="url(#lg2)" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="16" cy="16" r="3" fill="url(#lg1)"/>
+            <defs>
+              <linearGradient id="lg1" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#00D4FF"/>
+              </linearGradient>
+              <linearGradient id="lg2" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#6C63FF"/>
+                <stop offset="1" stop-color="#00D4FF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <span class="logo-text">LifeOS <span class="logo-ai">AI</span></span>
+      </div>
+
+      <nav class="sidebar-nav">
+        <button class="nav-item active" data-page="dashboard" onclick="navigate('dashboard')">
+          <span class="nav-icon">⚡</span><span class="nav-label">Dashboard</span>
+        </button>
+        <button class="nav-item" data-page="chat" onclick="navigate('chat')">
+          <span class="nav-icon">🤖</span><span class="nav-label">AI Chat</span>
+        </button>
+        <button class="nav-item" data-page="earn" onclick="navigate('earn')">
+          <span class="nav-icon">💰</span><span class="nav-label">AI Earn</span>
+        </button>
+        <button class="nav-item" data-page="video" onclick="navigate('video')">
+          <span class="nav-icon">🎥</span><span class="nav-label">Video Summary</span>
+        </button>
+        <button class="nav-item" data-page="book" onclick="navigate('book')">
+          <span class="nav-icon">📚</span><span class="nav-label">Book Generator</span>
+        </button>
+        <button class="nav-item" data-page="map" onclick="navigate('map')">
+          <span class="nav-icon">🗺️</span><span class="nav-label">Navigation</span>
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="user-card">
+          <div class="user-avatar">U</div>
+          <div class="user-info">
+            <span class="user-name">User</span>
+            <span class="user-plan">Free Plan</span>
+          </div>
+          <button class="upgrade-btn" onclick="showUpgrade()">⬆</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
+      <!-- Pages injected by JS -->
+    </main>
+  </div>
+
+  <!-- Upgrade Modal -->
+  <div class="modal-overlay" id="upgradeModal" style="display:none">
+    <div class="modal">
+      <button class="modal-close" onclick="document.getElementById('upgradeModal').style.display='none'">✕</button>
+      <div class="modal-icon">👑</div>
+      <h2>Upgrade to Premium</h2>
+      <p>Unlock faster AI, unlimited usage & advanced tools.</p>
+      <div class="price-cards">
+        <div class="price-card">
+          <span class="price-label">Monthly</span>
+          <span class="price-amount">$9.99</span>
+          <span class="price-per">/month</span>
+        </div>
+        <div class="price-card featured">
+          <span class="badge">Best Value</span>
+          <span class="price-label">Yearly</span>
+          <span class="price-amount">$79</span>
+          <span class="price-per">/year</span>
+        </div>
+      </div>
+      <button class="btn-primary" style="width:100%;margin-top:1rem">Get Premium →</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
