@@ -1,0 +1,74 @@
+{
+  "locos": [
+    {
+      "id": "WAG7-28451",
+      "type": "Electric Freight",
+      "class": "WAG7",
+      "status": "in_transit",
+      "origin": "Dhanbad Coal Mines",
+      "destination": "Korba NTPC Plant",
+      "cargo": "Steam Coal",
+      "cargo_tonnes": 3800,
+      "speed_kmh": 62,
+      "progress_percent": 43,
+      "eta_minutes": 262,
+      "position": [0.35, 0, -0.5]
+    },
+    {
+      "id": "WDG4-13302",
+      "type": "Diesel Freight",
+      "class": "WDG4",
+      "status": "halted",
+      "origin": "Singrauli Coal Block",
+      "destination": "Vindhyachal Plant",
+      "cargo": "Coking Coal",
+      "cargo_tonnes": 4100,
+      "speed_kmh": 0,
+      "progress_percent": 71,
+      "eta_minutes": 95,
+      "position": [-0.25, 0, 0.4]
+    },
+    {
+      "id": "WAG9-31001",
+      "type": "High-Power Electric",
+      "class": "WAG9",
+      "status": "in_transit",
+      "origin": "Talcher Coalfields",
+      "destination": "Farakka NTPC Plant",
+      "cargo": "Steam Coal",
+      "cargo_tonnes": 4600,
+      "speed_kmh": 71,
+      "progress_percent": 18,
+      "eta_minutes": 480,
+      "position": [0.6, 0, 0.1]
+    },
+    {
+      "id": "WDG4-13450",
+      "type": "Diesel Freight",
+      "class": "WDG4",
+      "status": "delayed",
+      "origin": "Jharsuguda Yard",
+      "destination": "Raipur Cement Plant",
+      "cargo": "Steam Coal",
+      "cargo_tonnes": 3200,
+      "speed_kmh": 15,
+      "progress_percent": 55,
+      "eta_minutes": 180,
+      "position": [-0.5, 0, -0.3]
+    },
+    {
+      "id": "WAG7-29102",
+      "type": "Electric Freight",
+      "class": "WAG7",
+      "status": "in_transit",
+      "origin": "Korba Coal Yard",
+      "destination": "Sipat Super Power Plant",
+      "cargo": "Coking Coal",
+      "cargo_tonnes": 3500,
+      "speed_kmh": 58,
+      "progress_percent": 88,
+      "eta_minutes": 22,
+      "position": [0.0, 0, 0.6]
+    }
+  ]
+}

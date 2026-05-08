@@ -14,8 +14,8 @@ export function Features() {
     { icon: Compass, title: "Smart Navigation", desc: "Find anything across your digital life.", href: "/navigation", color: "from-red-500 to-rose-400" },
     { icon: Layout, title: "Flight Tracking", desc: "Real-time global flight radar and alerts.", href: "/flight-tracking", color: "from-cyan-500 to-blue-600" },
     { icon: Ship, title: "Where Is My Cargo", desc: "AI-powered logistics tracking & supply chain intelligence.", href: "/cargo/", color: "from-amber-500 to-orange-600", tags: ["Logistics", "AI Tracking", "Supply Chain"] },
-    { icon: Briefcase, title: "AI Jobs Board", desc: "Curated tech jobs from Zerodha, Google, Razorpay, CRED & top startups.", href: "/cargo/jobs", color: "from-violet-500 to-fuchsia-500", tags: ["Jobs", "Careers", "AI Hiring"] },
-    { icon: Dumbbell, title: "AI Gym & Fitness", desc: "AI-powered workout planner, calorie tracker & diet coach.", href: "#", color: "from-lime-400 to-emerald-500", tags: ["Fitness AI", "Health", "Workout"] }
+    { icon: Briefcase, title: "AI Jobs Board", desc: "Curated tech jobs from Zerodha, Google, Razorpay, CRED & top startups.", href: "/job-portal", color: "from-violet-500 to-fuchsia-500", tags: ["Jobs", "Careers", "AI Hiring"] },
+    { icon: Dumbbell, title: "AI Gym & Fitness", desc: "AI-powered workout planner, calorie tracker & diet coach.", href: "/gym", color: "from-lime-400 to-emerald-500", tags: ["Fitness AI", "Health", "Workout"] }
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);

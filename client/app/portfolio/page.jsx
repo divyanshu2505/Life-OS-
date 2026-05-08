@@ -4,7 +4,6 @@ import Link from 'next/link';
 
 const PROJECTS = [
   {
-    date: "Apr 2025",
     name: "AI Chat Assistant",
     role: "Full Stack Developer",
     desc: "Built a real-time ChatGPT-style conversational AI interface with message history, typing indicators, and context-aware responses powered by Ollama.",
@@ -12,7 +11,6 @@ const PROJECTS = [
     href: "/chat",
   },
   {
-    date: "Mar 2025",
     name: "AI Revenue Generator",
     role: "Python Developer",
     desc: "Developed an intelligent freelancing hub that curates and ranks the top income platforms for developers. Aggregated 100+ freelancing sites with smart filtering.",
@@ -20,7 +18,6 @@ const PROJECTS = [
     href: "/revenue",
   },
   {
-    date: "Feb 2025",
     name: "Video Summarizer",
     role: "AI Developer",
     desc: "Engineered a YouTube video summarizer that takes 50-minute videos and extracts the top 5 key insights using AI. Built the full pipeline from URL to structured output.",
@@ -28,7 +25,6 @@ const PROJECTS = [
     href: "/summarizer",
   },
   {
-    date: "Jan 2025",
     name: "Book Generator",
     role: "AI Developer",
     desc: "Created an AI-powered book generation engine. Users provide a topic prompt and receive a complete, structured book available as a PDF or for online reading.",
@@ -36,7 +32,6 @@ const PROJECTS = [
     href: "/book-generator",
   },
   {
-    date: "Dec 2024",
     name: "Smart Navigation",
     role: "Frontend Developer",
     desc: "Built a Google Maps-style intelligent navigation interface with a real-time location sidebar, saved destinations, and traffic status overlays.",
@@ -44,7 +39,6 @@ const PROJECTS = [
     href: "/navigation",
   },
   {
-    date: "Nov 2024",
     name: "Flight Tracking System",
     role: "Full Stack Developer",
     desc: "Developed a Flightradar24-inspired real-time flight radar with an embedded map, clickable flight markers, and a live sidebar featuring Jewar International Airport.",
@@ -52,7 +46,6 @@ const PROJECTS = [
     href: "/flight-tracking",
   },
   {
-    date: "May 2025",
     name: "Where Is My Cargo",
     role: "Full Stack Developer",
     desc: "Built a cinematic, Steam-inspired cargo logistics tracking platform with real-time Indian freight rail mapping, AI-powered route optimization, and a premium dark dashboard UI.",
@@ -61,7 +54,7 @@ const PROJECTS = [
     external: true,
   },
   {
-    date: "May 2025",
+
     name: "AI Jobs Board",
     role: "Full Stack Developer",
     desc: "Built a curated AI-powered tech jobs board featuring openings from top Indian startups like Zerodha, Razorpay, CRED, Google India & more — with smart filtering by role, mode, and type.",
@@ -69,7 +62,6 @@ const PROJECTS = [
     href: "/cargo/jobs",
   },
   {
-    date: "May 2025",
     name: "AI Gym & Fitness Workspace",
     role: "AI Developer",
     desc: "Designed an AI-powered fitness assistant with workout planning, calorie tracking, diet suggestions, and an interactive AI coach — featuring a cyberpunk-inspired neon UI with animated progress visuals.",
